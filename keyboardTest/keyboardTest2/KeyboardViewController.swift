@@ -20,7 +20,6 @@ class KeyboardViewController: UIInputViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("0")
-        
         // Perform custom UI setup here
         self.nextKeyboardButton = UIButton(type: .system)
         
@@ -38,7 +37,6 @@ class KeyboardViewController: UIInputViewController {
     }
     
     override func viewWillLayoutSubviews() {
-//        self.nextKeyboardButton.isHidden = !self.needsInputModeSwitchKey
         print("2")
         super.viewWillLayoutSubviews()
     }
