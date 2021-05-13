@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1DADE52643B91300836AB8 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1DADE42643B91300836AB8 /* Image.xcassets */; };
 		BDB166E3263EA73A00DD1202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB166E2263EA73A00DD1202 /* AppDelegate.swift */; };
 		BDB166E5263EA73A00DD1202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB166E4263EA73A00DD1202 /* SceneDelegate.swift */; };
 		BDB166E7263EA73A00DD1202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB166E6263EA73A00DD1202 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD1DADE42643B91300836AB8 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		BDB166DF263EA73A00DD1202 /* keyboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB166E2263EA73A00DD1202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB166E4263EA73A00DD1202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		BDB166FB263EA76500DD1202 /* keyboardTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				BD1DADE42643B91300836AB8 /* Image.xcassets */,
 				BDB166FC263EA76500DD1202 /* KeyboardViewController.swift */,
 				BDB166FE263EA76500DD1202 /* Info.plist */,
 			);
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1DADE52643B91300836AB8 /* Image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

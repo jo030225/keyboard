@@ -7,6 +7,8 @@
 
 import UIKit
 
+var proxy: UITextDocumentProxy!
+
 class KeyboardViewController: UIInputViewController {
 
     var nextKeyboardButton = UIButton()
@@ -20,10 +22,12 @@ class KeyboardViewController: UIInputViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("0")
+        
+        proxy = textDocumentProxy as UITextDocumentProxy
         // Perform custom UI setup here
         self.nextKeyboardButton = UIButton(type: .system)
         
-        self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
+        self.nextKeyboardButton.setImage(.init(named: "switchKeyboard"), for: .normal)
         self.nextKeyboardButton.sizeToFit()
         self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
         
