@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct KeyboardText {
+struct KeyboardItem {
     
     static let letterKeys = [
         ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],

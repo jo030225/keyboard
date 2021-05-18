@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD1DADE52643B91300836AB8 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1DADE42643B91300836AB8 /* Image.xcassets */; };
-		BDAFB6C82652914C00BB5DF0 /* KeyboardText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFB6C72652914C00BB5DF0 /* KeyboardText.swift */; };
+		BDAFB6C82652914C00BB5DF0 /* KeyboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFB6C72652914C00BB5DF0 /* KeyboardItem.swift */; };
 		BDB166E3263EA73A00DD1202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB166E2263EA73A00DD1202 /* AppDelegate.swift */; };
 		BDB166E5263EA73A00DD1202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB166E4263EA73A00DD1202 /* SceneDelegate.swift */; };
 		BDB166E7263EA73A00DD1202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB166E6263EA73A00DD1202 /* ViewController.swift */; };
@@ -45,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		BD1DADE42643B91300836AB8 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
-		BDAFB6C72652914C00BB5DF0 /* KeyboardText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardText.swift; sourceTree = "<group>"; };
+		BDAFB6C72652914C00BB5DF0 /* KeyboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardItem.swift; sourceTree = "<group>"; };
 		BDB166DF263EA73A00DD1202 /* keyboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB166E2263EA73A00DD1202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB166E4263EA73A00DD1202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				BD1DADE42643B91300836AB8 /* Image.xcassets */,
 				BDB166FC263EA76500DD1202 /* KeyboardViewController.swift */,
 				BDB166FE263EA76500DD1202 /* Info.plist */,
-				BDAFB6C72652914C00BB5DF0 /* KeyboardText.swift */,
+				BDAFB6C72652914C00BB5DF0 /* KeyboardItem.swift */,
 			);
 			path = keyboardTest2;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB166FD263EA76500DD1202 /* KeyboardViewController.swift in Sources */,
-				BDAFB6C82652914C00BB5DF0 /* KeyboardText.swift in Sources */,
+				BDAFB6C82652914C00BB5DF0 /* KeyboardItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
