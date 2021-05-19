@@ -5,4 +5,13 @@
 //  Created by 조주혁 on 2021/05/18.
 //
 
-import Foundation
+import UIKit
+
+class DemoButton: UIButton {
+    
+    @IBOutlet weak var buttonView: UIView!
+    @IBOutlet weak var buttonLabel: UILabel!
+    @IBOutlet weak var buttonImageView: UIImageView!
+}
+
+

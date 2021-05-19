@@ -75,7 +75,7 @@ class KeyboardViewController: UIInputViewController {
     }
     
     @IBAction func text2(sender: UIButton) {
-        print(sender.titleLabel?.text)
+        print(sender.titleLabel?.text ?? "")
     }
 
 }
