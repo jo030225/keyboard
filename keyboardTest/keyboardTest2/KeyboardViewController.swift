@@ -37,7 +37,7 @@ class KeyboardViewController: UIInputViewController {
         self.aButton.translatesAutoresizingMaskIntoConstraints = false
         
         self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
-        self.aButton.addTarget(self, action: #selector(text2), for: .allTouchEvents)
+        self.aButton.addTarget(self, action: #selector(text2), for: .touchUpInside)
         
         self.view.addSubview(self.nextKeyboardButton)
         self.view.addSubview(self.aButton)
@@ -76,6 +76,8 @@ class KeyboardViewController: UIInputViewController {
     
     @IBAction func text2(sender: UIButton) {
         print(sender.titleLabel?.text ?? "")
+//        sender.titleLabel?.text = "b"
+        proxy.insertText(sender.titleLabel?.text ?? "")
     }
 
 }
